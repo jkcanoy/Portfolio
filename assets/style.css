@@ -1,0 +1,45 @@
+:root {
+    --prim: #f4f9f9;
+    --sec: #ccf2f4;
+    --tert: #a4ebf3;
+    --quat: #aaaaaa;
+}
+
+.header-img {
+    width: 100%;
+    height: 200px;
+    background: url(https://media.npr.org/assets/img/2020/08/27/nasa-goods-real_wide-9168d715c2d4c488d7a0e594b397d7abdd969d9d-s1600-c85.webp);
+    background-size: cover;
+}
+
+.header {
+    background: var(--prim);
+    display: inline-block;
+    font-size: 36px;
+    width: 100%;
+    color: var(--quat);
+}
+
+.header h1 {
+    float: left;
+    margin: 8px;
+}
+
+.header .nav {
+    float: right;
+}
+
+.header .nav ul {
+    list-style: none;
+    margin: 8px;
+    padding: 0
+}
+
+.header .nav li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+main {
+    display: grid | inline-grid
+}
