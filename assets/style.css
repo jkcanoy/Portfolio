@@ -169,3 +169,14 @@ a {
     opacity: 1.0;
 }
 
+@media screen and (max-width:992px) {
+    .work-container, .about-container {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .work-container, .about-container {
+        width: 100%;
+    }
+}
