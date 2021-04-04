@@ -4,9 +4,16 @@
 
     A simple portfolio of my work 
 
-    Short individual summaries coming soon...
+    Individual summaries coming soon...
 
 ### Screenshot
 
-    ![Screenshot](assets/images/Screenshot.png/)
+    ![Screenshot of webpage](https://github.com/jkcanoy/Portfolio/blob/main/assets/Screenshot.png)
+
+### Link
+
+    https://github.com/jkcanoy/Portfolio
+
+    https://jkcanoy.github.io/Portfolio/
+
 
