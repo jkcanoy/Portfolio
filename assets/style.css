@@ -41,10 +41,6 @@ header, footer {
     padding: 0 10px 15px;
 } 
 
-main {
-
-}
-
 .about-container {
     padding: 30px;
     background-color: var(--prim);
@@ -86,6 +82,10 @@ main {
 
 .card-body {
     background-color: var(--sec);
+}
+
+.card-title {
+    font-size: 24px;
 }
 
 .main-work {
