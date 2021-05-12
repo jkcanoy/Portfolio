@@ -15,6 +15,10 @@ a {
     color: var(--tert);
 }
 
+a:hover {
+    color: var(--prim);
+}
+
 .header-img {
     width: 100%;
     height: 200px;
@@ -47,27 +51,16 @@ main {
 }
 
 .about-header {
-    flex-grow: 2;
     text-align: start;
     font-size: 40px;
     border-right: solid;
     border-color: var(--sec);
 }
 
-.about-header section {
-    
-    padding-right: 50px;
-}
-
-.me {
-    
-}
-
 .about-para {
     font-size: 20px;
     padding: 30px;
 }
-
 
 .work-container {
     padding: 30px;
@@ -91,6 +84,10 @@ main {
     text-align: center;
 }
 
+.card-body {
+    background-color: var(--sec);
+}
+
 .main-work {
     border: solid;
     border-color: var(--sec);
@@ -105,13 +102,17 @@ main {
     opacity: 1.0;
 }
 
-.work2, .work3, .work4, .work5 {
+.other-work {
     cursor: var(--finger);
     transition: 0.5s;
     opacity: 0.5;
     border: solid;
     border-color: var(--sec);
     border-radius: 5px;
+}
+
+.other-work:hover {
+    opacity: 1.0;
 }
 
 .work2 {
@@ -130,6 +131,3 @@ main {
     background-image: url("https://i.picsum.photos/id/295/800/200.jpg?hmac=6XLuHE0E_LeJOK1Wg_2TMLX3i6nN4J_inILcEvuRBGs");
 }
 
-.work2:hover, .work3:hover, .work4:hover, .work5:hover {
-    opacity: 1.0;
-}

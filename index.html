@@ -1,87 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/reset.css"/>
-    <link rel="stylesheet" href="./assets/style.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Jefferson Kyle Canoy's Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header container-fluid">
-        <div class="row">
-            <h1 class="name">Jefferson Kyle Canoy</h1>
-            <ul class ="nav justify-content-end">
-                <li class="nav-item"><a href="#about">About Me</a></li>
-                <li class="nav-item"><a href="#work">Work</a></li>
-                <li class="nav-item"><a href="#contact">Contact Me</a></li>
-            </ul>
-        </div>
+      <div class="row">
+        <h1 class="name">Jefferson Kyle Canoy</h1>
+        <ul class="nav justify-content-end">
+          <li class="nav-item"><a href="#about">About Me</a></li>
+          <li class="nav-item"><a href="#work">Work</a></li>
+          <li class="nav-item"><a href="#contact">Contact Me</a></li>
+        </ul>
+      </div>
     </header>
 
-<div class="header-img container-fluid"></div>
+    <div class="header-img container-fluid"></div>
 
-<main class="container-fluid">
-    <div class="row about-container">
+    <main class="container-fluid">
+      <div class="row about-container">
         <div class="about-header col-sm-12 col-md-4 col-lg-2">
-            <section>
-                <h1 id="about">About Me</h1>
-            </section>
+          <section>
+            <h1 id="about">About Me</h1>
+          </section>
         </div>
-        <div class="me col-sm-12 col-md-4 col-lg-2"></div>
+        <div class="me col-sm-12 col-md-4 col-lg-2">
+          <img
+            src="./assets/images/profile.JPG"
+            class="card-img-top"
+            alt="profile picture"
+          />
+        </div>
         <div class="about-para col-sm-12 col-md-4 col-lg-8">
-                <p>
-                Hi, my name is Kyle and I am currently a CNA for the Burn/Pediatric ICU at Harborview Medical Center, and was in the process of starting a career in medicine with a hope of becoming a physician. However I am putting that on pause and exploring a career in web development. 
-                I am currently in the UW Coding Bootcamp in the hopes of becoming a web developer. As of now I have some knowledge of HTML, CSS, and Javascript, and will hopefully expand that knowledge in the future regardless of what this portfolio page looks/functions like. 
-                In my spare time I like to play video games, watch movies, occasionally read books when the planets align and the moon is full, and do things outdoors like hiking and camping. 
-                </p>
+          <p>
+            Hi, my name is Kyle and I am currently a CNA for the Burn/Pediatric
+            ICU at Harborview Medical Center, and was in the process of starting
+            a career in medicine with a hope of becoming a physician. However I
+            am putting that on pause and exploring a career in web development.
+            I am currently in the UW Coding Bootcamp in the hopes of becoming a
+            web developer. As of now I have some knowledge of HTML, CSS, and
+            Javascript, and will hopefully expand that knowledge in the future
+            regardless of what this portfolio page looks/functions like. In my
+            spare time I like to play video games, watch movies, occasionally
+            read books when the planets align and the moon is full, and do
+            things outdoors like hiking and camping.
+          </p>
         </div>
-    </div>
-    <div class="row work-container">
-        
-            <div class="work-header col-sm-12 col-md-4 col-lg-2">
-                <section>
-                    <h1 id="work">Work</h1>
-                </section>
+      </div>
+      <div class="row work-container">
+        <div class="work-header col-sm-12 col-md-4 col-lg-2">
+          <section>
+            <h1 id="work">Work</h1>
+          </section>
+        </div>
+        <div class="work-grid container col-sm-12 col-md-8 col-lg-10">
+          <div class="card mb-3" onclick='location.href = "https://github.com/jkcanoy";'>
+            <img
+              src="./assets/images/placeholder1.jpg"
+              class="card-img-top main-work"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
             </div>
-            <div class="work-grid container col-sm-12 col-md-8 col-lg-10">
-                <section class="main-work row col-lg-12 justify-content-center" onclick='location.href = "https://github.com/jkcanoy";'>
-                    <header>Placeholder1</header>
-                </section>
-                <div class="other-work row col-sm-12 sol-md-6">
-                    <section class="work2" onclick='location.href = "https://github.com/jkcanoy";'>
-                        <header>Placeholder2</header>
-                    </section>
-                    <section class="work3" onclick='location.href = "https://github.com/jkcanoy";'>
-                        <header>Placeholder3</header>
-                    </section>
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./assets/images/placeholder2.jpg"
+                  class="card-img-top other-work"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
                 </div>
-                <div class="other-work row col-sm-12 sol-md-6">
-                    <section class="work4" onclick='location.href = "https://github.com/jkcanoy";'>
-                        <header>Placeholder4</header>
-                    </section>
-                    <section class="work5" onclick='location.href = "https://github.com/jkcanoy";'>
-                        <header>Placeholder5</header>
-                    </section>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./assets/images/placeholder3.jpg"
+                  class="card-img-top other-work"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
                 </div>
-        
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./assets/images/placeholder4.jpg"
+                  class="card-img-top other-work"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./assets/images/placeholder5.jpg"
+                  class="card-img-top other-work"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</main>
-<footer class="container-fluid">
-    <h1 class="name">Contact Me</h1>
-    <nav>
+      </div>
+    </main>
+    <footer class="container-fluid">
+      <h1 class="name">Contact Me</h1>
+      <nav>
         <ul class="nav justify-content-end">
-            <li class="nav-item">425-444-2527</li>
-            <li class="nav-item"><a href="mailto: kylecanoy96@gmail.com">email</a></li>
-            <li class="nav-item"><a href="https://github.com/jkcanoy">GitHub</a></li>
+          <li class="nav-item">425-444-2527</li>
+          <li class="nav-item">
+            <a href="mailto: kylecanoy96@gmail.com">email</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/jkcanoy">GitHub</a>
+          </li>
         </ul>
-    </nav>
-</footer>
-</body>
-
+      </nav>
+    </footer>
+  </body>
 </html>
-
