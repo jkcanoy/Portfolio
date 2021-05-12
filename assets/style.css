@@ -12,6 +12,7 @@
 
 a {
     text-decoration: none;
+    color: var(--tert);
 }
 
 .header-img {
@@ -21,35 +22,26 @@ a {
     background-size: cover;
 }
 
-.header, footer {
-    display: inline-block;
+header, footer {
     font-size: 48px;
-    width: 100%;
     background-color: var(--sec);
 }
 
-.header h1, footer h1 {
-    float: left;
-    padding: 8px;
+.name {
+    font-size: 56px;
+    padding: 10px 0 0 15px;
 }
 
-.header .nav, footer nav {
-    float: right;
-    background-color: var(--sec);
-}
-
-.header .nav ul, footer nav ul {
+.nav-item {
     list-style: none;
-    padding: 8px;
-}
+    padding: 0 10px 15px;
+} 
 
-.header .nav li, footer nav li {
-    display: inline-block;
-    padding: 0 30px;
+main {
+
 }
 
 .about-container {
-    display: flex;
     padding: 30px;
     background-color: var(--prim);
 }
@@ -63,62 +55,43 @@ a {
 }
 
 .about-header section {
-    width:180px;
+    
     padding-right: 50px;
 }
 
 .me {
-    flex-grow: 1;
-    background: url(/assets/profile.JPG)
+    
 }
 
 .about-para {
-    flex-grow: 7;
     font-size: 20px;
     padding: 30px;
 }
 
 
 .work-container {
-    display: flex;
-    flex-direction: row;
-    height:800px;
     padding: 30px;
     background-color: var(--prim);
 }
 
 .work-header {
-    flex-grow: 2;
-    text-align: start;
     font-size: 40px;
     border-right: solid;
     border-color: var(--sec);
 }
 
 .work-grid {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 8;
     padding: 10px
 }
 
 .work-grid header {
-    display: flex;
-    align-items: flex-start;
     background-color: var(--sec);
-    width: 30%;
     padding: 8px;
     border-radius: 0 0 3px 0;
     text-align: center;
 }
 
-.main-work header {
-    width: 15%;
-}
-
 .main-work {
-    justify-content: center;
-    flex-grow: 3;
     border: solid;
     border-color: var(--sec);
     border-radius: 5px;
@@ -132,18 +105,10 @@ a {
     opacity: 1.0;
 }
 
-.other-work {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-grow: 1;
-}
-
 .work2, .work3, .work4, .work5 {
     cursor: var(--finger);
     transition: 0.5s;
     opacity: 0.5;
-    flex-grow: 1;
     border: solid;
     border-color: var(--sec);
     border-radius: 5px;
@@ -167,16 +132,4 @@ a {
 
 .work2:hover, .work3:hover, .work4:hover, .work5:hover {
     opacity: 1.0;
-}
-
-@media screen and (max-width:992px) {
-    .work-container, .about-container {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .work-container, .about-container {
-        width: 100%;
-    }
 }
