@@ -5,7 +5,7 @@
 A simple portfolio of my work 
 
 What Should I Eat?
-* A simple andom recipe generator. Users select one of four ingredient buttons, and a random recipe containing the chosen main ingredient will appear.
+* A simple random recipe generator. Users select one of four ingredient buttons and a random recipe containing the chosen main ingredient will be generated onto the page.
 
 Password Generator
 * A random password generator. Users click the generate password button and will be prompted to choose multiple parameters they would like their password to contain. A random password will be generated based on the parameters chosen.
